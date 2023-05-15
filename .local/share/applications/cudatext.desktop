@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=CudaText
+Comment=Cross-platform code editor
+GenericName=Development Environment
+Exec=/home/darko/.local/bin/cudatext/cudatext
+Icon=/home/darko/.local/bin/cudatext/cudatext-512.png
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Development;Documentation;
+MimeType=text/plain;

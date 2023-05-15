@@ -1,0 +1,52 @@
+# helloSystem
+
+this is how I put my helloSystem desktop together
+
+
+first, fix the time zone
+
+```
+sudo tzsetup
+```
+
+then install the Developer.img
+
+then...
+
+### install apps
+```
+sudo pkg update
+sudo pkg install plank
+sudo pkg install vscode
+sudo pkg install gnustep
+```
+
+### copy the autostart sequence
+```
+cp  ~/GitHub/helloSystem/Applications/Autostart/boot.sh /Applications/Autostart/boot.sh
+```
+
+
+
+defaults write NSGlobalDomain GSUseIconManager NO
+defaults write NSGlobalDomain GSSuppressAppIcon YES
+
+
+### plank items:
+Home
+Falko
+Featherpad
+Utilitird
+Preferences
+QTerminal
+CatLock
+Octopkg
+Chrome
+CudaText
+VisualStudio Code
+SublimeText
+Cadence
+Guitarix
+DeaDBeeF
+DSBMixer
+Trash
