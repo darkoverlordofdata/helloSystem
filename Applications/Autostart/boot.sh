@@ -1,6 +1,15 @@
 #!/bin/sh
-xrandr --output LVDS-1 --off --output VGA-1 --off --output HDMI-1 --primary --mode 1920x1080 --pos 1366x0 --rotate normal --output DP-1 --off
+# https://gist.github.com/debloper/2793261
+# gtf 1366 768 60
+xrandr --newmode "1366x768_60.00"  85.86  1368 1440 1584 1800  768 769 772 795  -HSync +Vsync
+xrandr --addmode HDMI-1 "1366x768_60.00"
 
-killall Menu
+xrandr --output DP-1 --off
+xrandr --output VGA-1 --off 
+xrandr --output LVDS-1 --on 
+xrandr --output HDMI-1 --primary --mode "1366x768_60.00"  --pos 0x0 --rotate normal
 
-launch Dock
+
+plank &
+
+# killall Menu
