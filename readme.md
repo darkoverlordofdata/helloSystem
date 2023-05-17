@@ -50,3 +50,17 @@ Guitarix
 DeaDBeeF
 DSBMixer
 Trash
+
+
+### VSCode Extensions
+C/C++ Intellisense      Microdoft
+C/C++ Extension Pack    Microdoft
+C/C++ Themes            Microdoft
+C#                      Microsoft
+clangd                  LLVM
+CMake                   twxs
+CMake Tools             Microsoft
+CodeLLDB                Vadim Chugunov
+Linux Desktop File Support
+Visual NuGet            Full Stack Spider
+vscode-solution-explorer Fernando Escolar
