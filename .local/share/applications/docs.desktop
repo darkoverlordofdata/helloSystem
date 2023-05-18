@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Docs
+Comment=Docs (Ice SSB)
+Exec=chrome --app=https://docs.google.com/document/u/0/ --class=ICE-SSB-docs
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/Applications/SSB/Docs.app/Resources/Docs.png
+Categories=GTK;Office;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=ICE-SSB-docs
+StartupNotify=true

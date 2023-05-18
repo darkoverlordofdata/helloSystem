@@ -1,0 +1,3 @@
+#!/bin/sh
+chrome --app=https://www.office.com/ --class=ICE-SSB-office
+

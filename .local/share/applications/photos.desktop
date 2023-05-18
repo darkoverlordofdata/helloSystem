@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Photos
+Comment=Photos (Ice SSB)
+Exec=chrome --app=https://photos.google.com/ --class=ICE-SSB-photos
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/Applications/SSB/Photos.app/Resources/Photos.png
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=ICE-SSB-photos
+StartupNotify=true

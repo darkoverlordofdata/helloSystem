@@ -1,0 +1,3 @@
+#!/bin/sh
+chrome --app=https://onlinebanking.becu.org/BECUBankingWeb/Login.aspx --class=ICE-SSB-becu --user-data-dir=/Applications/SSB/BECU.app/Resources/profiles/becu
+/home/darko/.local/share/ice/profiles/becu

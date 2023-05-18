@@ -1,0 +1,2 @@
+#!/bin/sh
+chrome --app=https://docs.google.com/document/u/0/ --class=ICE-SSB-docs

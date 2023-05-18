@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=YouTube
+Comment=YouTube (Ice SSB)
+Exec=chrome --app=https://www.youtube.com/ --class=ICE-SSB-youtube
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/Applications/SSB/YouTube.app/Resources/YouTube.png
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=ICE-SSB-youtube
+StartupNotify=true

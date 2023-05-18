@@ -1,0 +1,2 @@
+#!/bin/sh
+chrome --app=https://www.youtube.com/ --class=ICE-SSB-youtube

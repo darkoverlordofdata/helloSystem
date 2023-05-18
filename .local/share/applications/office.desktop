@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Office
+Comment=Office (Ice SSB)
+Exec=chrome --app=https://www.office.com/ --class=ICE-SSB-office
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/Applications/SSB/Office.app/Resources/Office.png
+Categories=GTK;Office;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=ICE-SSB-office
+StartupNotify=true

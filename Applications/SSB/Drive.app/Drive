@@ -1,0 +1,2 @@
+#!/bin/sh
+chrome --app=https://drive.google.com/drive/my-drive --class=ICE-SSB-drive
