@@ -35,8 +35,9 @@ mkdir -p ~/.local/share/icons/hicolor/48x48/apps
 cp ~/Documents/GitHub/helloSystem/.local/share/icons/hicolor/48x48/apps/octopi.png ~/.local/share/icons/hicolor/48x48/apps/octopi.png
 
 # set the 'real' icon for VSCode
-mkdir -p ~/.local/share/icons/hicolor/scalable/apps
-cp ~/Documents/GitHub/helloSystem/.local/share/icons/hicolor/scalable/apps/com.visualstudio.code.svg ~/.local/share/icons/hicolor/scalable/apps/com.visualstudio.code.svg
+sudo cp /usr/local/share/pixmaps/com.visualstudio.code.oss.png /usr/local/share/pixmaps/com.visualstudio.code.oss.png.copy
+sudo cp ~/Documents/GitHub/helloSystem/.local/share/icons/hicolor/scalable/apps/com.visualstudio.code.png /usr/local/share/pixmaps/com.visualstudio.code.oss.png
+
 
 
 # set the Dock items
