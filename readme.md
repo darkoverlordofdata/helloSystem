@@ -64,3 +64,10 @@ CodeLLDB                Vadim Chugunov
 Linux Desktop File Support
 Visual NuGet            Full Stack Spider
 vscode-solution-explorer Fernando Escolar
+
+
+sudo nano /usr/local/var/localize/include
+
+LANG=en_US
+MM_CHARSET=UTF-8
+TZ=America/Los_Angeles

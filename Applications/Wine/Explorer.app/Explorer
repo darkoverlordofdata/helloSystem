@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/local/bin/wine "/usr/home/darko/.wine/dosdevices/c:/windows/explorer.exe"
