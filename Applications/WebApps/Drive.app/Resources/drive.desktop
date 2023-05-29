@@ -6,7 +6,7 @@ Exec=chrome --app=https://drive.google.com/drive/my-drive --class=ICE-SSB-drive
 Terminal=false
 X-MultipleArgs=false
 Type=Application
-Icon=/Applications/SSB/Drive.app/Resources/Drive.png
+Icon=/Applications/WebApp/Drive.app/Resources/Drive.png
 Categories=GTK;Network;
 MimeType=text/html;text/xml;application/xhtml_xml;
 StartupWMClass=ICE-SSB-drive

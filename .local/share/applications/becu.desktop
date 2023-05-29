@@ -2,12 +2,12 @@
 Version=1.0
 Name=BECU
 Comment=BECU (Ice SSB)
-Exec=chrome --app=https://onlinebanking.becu.org/BECUBankingWeb/Login.aspx --class=ICE-SSB-becu --user-data-dir=/Applications/SSB/BECU.app/Resources/profiles/becu
+Exec=chrome --app=https://onlinebanking.becu.org/BECUBankingWeb/Login.aspx --class=ICE-SSB-becu --user-data-dir=/Applications/WebApps/BECU.app/Resources/profiles/becu
 X-ICE-SSB-Profile=becu
 Terminal=false
 X-MultipleArgs=false
 Type=Application
-Icon=/Applications/SSB/BECU.app/Resources/BECU.png
+Icon=/Applications/WebApps/BECU.app/Resources/BECU.png
 Categories=GTK;Network;
 MimeType=text/html;text/xml;application/xhtml_xml;
 StartupWMClass=ICE-SSB-becu

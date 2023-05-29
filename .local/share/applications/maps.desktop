@@ -6,7 +6,7 @@ Exec=chrome --app=https://www.google.com/maps/@47.8858709,-122.2008558,14z --cla
 Terminal=false
 X-MultipleArgs=false
 Type=Application
-Icon=/Applications/SSB/Maps.app/Resources/Maps.png
+Icon=/Applications/WebApps/Maps.app/Resources/Maps.png
 Categories=GTK;Network;
 MimeType=text/html;text/xml;application/xhtml_xml;
 StartupWMClass=ICE-SSB-maps
