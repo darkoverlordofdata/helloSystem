@@ -1,0 +1,2 @@
+#!/bin/sh
+chrome --app=https://docs.google.com/spreadsheets/u/0/ --class=ICE-SSB-sheets --user-data-dir=/home/darko/.local/share/ice/profiles/sheets

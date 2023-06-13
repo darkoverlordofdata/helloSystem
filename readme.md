@@ -34,21 +34,22 @@ defaults write NSGlobalDomain GSSuppressAppIcon YES
 
 ### plank items:
 Home
-Falko
 Featherpad
-Utilitird
+Utilities
 Preferences
 QTerminal
+DailyBing
+Code
+guitarix
 CatLock
-Octopkg
 Chrome
-CudaText
-VisualStudio Code
-SublimeText
-Cadence
-Guitarix
-DeaDBeeF
-DSBMixer
+BECU
+Microsoft 365
+Docs
+Drive
+Maps
+Photos
+YouTube
 Trash
 
 
