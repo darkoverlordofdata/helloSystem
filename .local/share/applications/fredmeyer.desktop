@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=FredMeyer
+Comment=FredMeyer (Ice SSB)
+Exec=chrome --app=https://www.fredmeyer.com/ --class=ICE-SSB-fredmeyer
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/Applications/WebApps/FredMeyer.app/Resources/FredMeyer.png
+Categories=GTK;Office;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=ICE-SSB-fredmeyer
+StartupNotify=true

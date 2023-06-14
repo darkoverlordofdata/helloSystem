@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# https://brandslogos.com/f/fred-meyer-logo/
+#
+# Download this Fred Meyer logo PNG with transparent background which can be opened by any modern 
+# image editing application both on Mac or PC. This logo is for personal and non-commercial use. 
+# For more information about the logo guidelines please visit the Fred Meyer website.
+
+chrome --app=https://www.fredmeyer.com --class=ICE-SSB-fredmeyer
