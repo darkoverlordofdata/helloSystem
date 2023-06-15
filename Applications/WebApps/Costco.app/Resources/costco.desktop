@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Costco
+Comment=Costco (Ice SSB)
+Exec=chrome --app=https://www.costco.com/ --class=ICE-SSB-costco
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/Applications/WebApps/Costco.app/Resources/Costco.png
+Categories=GTK;Office;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=ICE-SSB-costco
+StartupNotify=true

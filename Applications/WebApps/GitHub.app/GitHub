@@ -1,0 +1,2 @@
+#!/bin/sh
+chrome --app=https://github.com/darkoverlordofdata --class=ICE-SSB-github

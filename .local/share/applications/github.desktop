@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=GitHub
+Comment=GitHub (Ice SSB)
+Exec=chrome --app=https://github.com/darkoverlordofdata --class=ICE-SSB-github
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/Applications/WebApps/GitHub.app/Resources/GitHub.png
+Categories=GTK;Office;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=ICE-SSB-github
+StartupNotify=true

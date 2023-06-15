@@ -1,0 +1,2 @@
+#!/bin/sh
+chrome --app=https://www.costco.com/ --class=ICE-SSB-costco
