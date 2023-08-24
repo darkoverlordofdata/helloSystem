@@ -27,48 +27,63 @@ cp  ~/GitHub/helloSystem/Applications/Autostart/boot.sh /Applications/Autostart/
 ```
 
 
-
+```
 defaults write NSGlobalDomain GSUseIconManager NO
 defaults write NSGlobalDomain GSSuppressAppIcon YES
-
+```
 
 ### plank items:
-Home
-Featherpad
-Utilities
-Preferences
-QTerminal
-DailyBing
-Code
-guitarix
-CatLock
-Chrome
-BECU
-Microsoft 365
-Docs
-Drive
-Maps
-Photos
-YouTube
-Trash
+* Home
+* Featherpad
+* Utilities
+* Preferences
+* QTerminal
+* DailyBing
+* Code
+* guitarix
+* CatLock
+* Chrome
+* BECU
+* Microsoft 365
+* Docs
+* Drive
+* Maps
+* Photos
+* YouTube
+* Trash
 
 
 ### VSCode Extensions
-C/C++ Intellisense      Microdoft
-C/C++ Extension Pack    Microdoft
-C/C++ Themes            Microdoft
-C#                      Microsoft
-clangd                  LLVM
-CMake                   twxs
-CMake Tools             Microsoft
-CodeLLDB                Vadim Chugunov
-Linux Desktop File Support
-Visual NuGet            Full Stack Spider
-vscode-solution-explorer Fernando Escolar
+* C/C++ Intellisense      Microdoft
+* C/C++ Extension Pack    Microdoft
+* C/C++ Themes            Microdoft
+* C#                      Microsoft
+* clangd                  LLVM
+* CMake                   twxs
+* CMake Tools             Microsoft
+* CodeLLDB                Vadim Chugunov
+* Linux Desktop File Support
+* Visual NuGet            Full Stack Spider
+* vscode-solution-explorer Fernando Escolar
 
-
+### after reboot:
+```
 sudo nano /usr/local/var/localize/include
+
+replace with:
 
 LANG=en_US
 MM_CHARSET=UTF-8
 TZ=America/Los_Angeles
+```
+
+### permanent fix:
+```
+sudo nano /usr/local/bin/start-hello
+comment line 114 (. /usr/local/var/localize/include)
+insert:
+    LANG=en_US
+    MM_CHARSET=UTF-8
+    TZ=America/Los_Angeles
+reboot
+```
