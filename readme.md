@@ -19,6 +19,7 @@ sudo pkg update
 sudo pkg install plank
 sudo pkg install vscode
 sudo pkg install gnustep
+sudo pkg install autorandr
 ```
 
 ### copy the autostart sequence
@@ -87,3 +88,15 @@ insert:
     TZ=America/Los_Angeles
 reboot
 ```
+
+### SLIM themes
+```
+sudo pkg install slim-freebsd-dark-theme
+ls /usr/local/share/slim/themes/
+
+nano /usr/local/etc/slim.conf
+# current_theme       default
+current_theme           slim-freebsd-dark-theme
+
+```
+
