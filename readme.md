@@ -13,6 +13,14 @@ then install the Developer.img
 
 then...
 
+### ignore close lid
+```
+sudo nano /etc/sysctl.conf
+hw.acpi.lid_switch_state="S3"
+hw.acpi.lid_switch_state="NONE"
+```
+
+
 ### install apps
 ```
 sudo pkg update
@@ -24,33 +32,36 @@ sudo pkg install autorandr
 
 ### copy the autostart sequence
 ```
-cp  ~/GitHub/helloSystem/Applications/Autostart/boot.sh /Applications/Autostart/boot.sh
-```
-
-
-```
-defaults write NSGlobalDomain GSUseIconManager NO
-defaults write NSGlobalDomain GSSuppressAppIcon YES
+chmod +x ~/GitHub/helloSystem/Applications/Autostart/boot.sh
+sudo cp  ~/GitHub/helloSystem/Applications/Autostart/boot.sh /Applications/Autostart/boot.sh
 ```
 
 ### plank items:
+```
+cp ~/Documents/GitHub/helloSystem/.local/share/applications/*.desktop ~.local/share/applications/*.desktop
+```
+
 * Home
 * Featherpad
-* Utilities
 * Preferences
+* Utilities
 * QTerminal
 * DailyBing
-* Code
+* Code - OSS
 * guitarix
 * CatLock
-* Chrome
+* Chromium
 * BECU
-* Microsoft 365
+* Office
+* GitHub
 * Docs
+* Sheets
 * Drive
 * Maps
 * Photos
 * YouTube
+* Costco
+* FredMeyer
 * Trash
 
 
@@ -73,7 +84,7 @@ sudo nano /usr/local/var/localize/include
 
 replace with:
 
-LANG=en_US
+LANG=en_US 
 MM_CHARSET=UTF-8
 TZ=America/Los_Angeles
 ```
@@ -81,8 +92,11 @@ TZ=America/Los_Angeles
 ### permanent fix:
 ```
 sudo nano /usr/local/bin/start-hello
-comment line 114 (. /usr/local/var/localize/include)
-insert:
+line 114 (
+replace:
+    . /usr/local/var/localize/include
+with:
+    #. /usr/local/var/localize/include
     LANG=en_US
     MM_CHARSET=UTF-8
     TZ=America/Los_Angeles
