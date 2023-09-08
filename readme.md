@@ -114,3 +114,12 @@ current_theme           slim-freebsd-dark-theme
 
 ```
 
+### GitHub projects:
+```
+https://github.com/darkoverlordofdata/helloSystem.git
+https://github.com/darkoverlordofdata/Examples_Cocoa.git
+https://github.com/darkoverlordofdata/Shmupwarz.git
+https://github.com/darkoverlordofdata/OOP-in-C.git
+https://github.com/darkoverlordofdata/corefw.git
+https://github.com/darkoverlordofdata/dailybing.git
+```
