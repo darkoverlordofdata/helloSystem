@@ -32,8 +32,8 @@ sudo pkg install autorandr
 
 ### copy the autostart sequence
 ```
-chmod +x ~/GitHub/helloSystem/Applications/Autostart/boot.sh
-sudo cp  ~/GitHub/helloSystem/Applications/Autostart/boot.sh /Applications/Autostart/boot.sh
+chmod +x ~/Documents/GitHub/helloSystem/Applications/Autostart/boot.sh
+sudo cp  ~/Documents/GitHub/helloSystem/Applications/Autostart/boot.sh /Applications/Autostart/boot.sh
 ```
 
 ### plank items:
