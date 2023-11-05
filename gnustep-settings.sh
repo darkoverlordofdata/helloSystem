@@ -29,7 +29,7 @@ defaults write NSGlobalDomain NSUserFixedPitchFont	NimbusMonoPS-Regular
 defaults write NSGlobalDomain NSUserFixedPitchFontSize 14
 
 
-defaults write NSGlobalDomain GSTheme NesedahRik
+defaults write NSGlobalDomain GSTheme Nesedah
 defaults write NSGlobalDomain GSUseIconManager NO
 defaults write NSGlobalDomain GSSuppressAppIcon YES
 defaults write NSGlobalDomain NSMenuInterfaceStyle NSNextStepInterfaceStyle

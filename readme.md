@@ -123,3 +123,25 @@ https://github.com/darkoverlordofdata/OOP-in-C.git
 https://github.com/darkoverlordofdata/corefw.git
 https://github.com/darkoverlordofdata/dailybing.git
 ```
+
+```
+git clone https://github.com/lldb-tools/lldb-mi.git
+cd lldb-mi
+cmake .
+cmake --build .
+sudo cmake --install .
+```
+
+## objc on freebsd
+
+* sudo pkg install gnustep
+* sudo pkg install vscode
+
+ctrl-p
+* ext install webfreak.debug
+* ext install llvm-vs-code-extensions.vscode-clangd
+* ext install twxs.cmake
+* ext install ms-vscode.cmake-tools
+* ext install kuba-p.glsl-lsp
+
+

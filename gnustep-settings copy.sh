@@ -25,7 +25,7 @@ defaults write NSGlobalDomain NSControlContentFont	SanFranciscoDisplay-Regular
 defaults write NSGlobalDomain NSControlContentFontSize	14
 defaults write NSGlobalDomain NSUserFont	SanFranciscoDisplay-Regular
 defaults write NSGlobalDomain NSUserFontSize	14
-defaults write NSGlobalDomain NSUserFixedPitchFont	NimbusMonoPS-Regular
+defaults write NSGlobalDomain NSUserFixedPitchFont	SanFranciscoDisplay-Regular
 defaults write NSGlobalDomain NSUserFixedPitchFontSize 14
 
 

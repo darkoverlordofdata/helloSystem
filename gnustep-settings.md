@@ -12,5 +12,5 @@ defaults write NSGlobalDomain NSMenuInterfaceStyle NSWindows95InterfaceStyle
 
 Install it in ~/GNUStep/Library/Themes with 
 
- make install GNUSTEP_INSTALLATION_DOMAIN=USER
+gmake install GNUSTEP_INSTALLATION_DOMAIN=USER
 
