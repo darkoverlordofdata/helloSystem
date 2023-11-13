@@ -184,3 +184,11 @@ kwriteconfig5 --file .config/kglobalshortcutsrc --group khotkeys --key '7c9ef7e2
 
 kwriteconfig5 --file kglobalshortcutsrc --group kwin --key "Show Desktop" "none,none,Show Desktop"
 kquitapp5 kglobalaccel && sleep 2 && kglobalaccel5 &
+
+
+
+
+git config --global user.name darkoverlordofdata
+git config --global user.email darkoverlordofdata@gmail.com
+
+oss-code --password-store="gnome"
