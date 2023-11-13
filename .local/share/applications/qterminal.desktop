@@ -3,6 +3,6 @@ Encoding=UTF-8
 Version=1.0
 Type=Application
 Terminal=false
-Exec=launch /Applications/Utilities/QTerminal
+Exec=/Applications/Utilities/QTerminal.app/QTerminal
 Name=QTerminal
 Icon=/Applications/Utilities/QTerminal.app/Resources/QTerminal.png

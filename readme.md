@@ -89,7 +89,7 @@ MM_CHARSET=UTF-8
 TZ=America/Los_Angeles
 ```
 
-### permanent fix:
+###ls permanent fix:
 ```
 sudo nano /usr/local/bin/start-hello
 line 114 (
@@ -144,4 +144,43 @@ ctrl-p
 * ext install ms-vscode.cmake-tools
 * ext install kuba-p.glsl-lsp
 
+### for llvm-vs-code-extensions.vscode-clangd
+clangd needs some extra help. change
+* settings clangd:path
+```
+/usr/local/bin/clangd15
+```
 
+
+
+kquitapp5 kglobalaccel && sleep 2 && kglobalaccel5 &
+
+[/Applications/DailyBing.app/DailyBing]
+_k_friendly_name=DailyBing
+Lock Session=Meta+L\tCtrl+Alt+L\tScreensaver,Meta+L\tCtrl+Alt+L\tScreensaver,DailyBing
+
+
+[Data_0]
+Comment=Lock Screen
+Enabled=true
+Name=LockScreen
+Type=SIMPLE_ACTION_DATA
+
+[Data_0Actions0]
+CommandURL=/Applications/DailyBing.app/Resources/catlock.py --pin 420420
+Type=COMMAND_URL
+
+[Data_0Triggers0]
+Key=Meta+L
+Type=SHORTCUT
+Uuid={7c9ef7e2-bbf8-4c1e-b1b0-10d103ed285f}
+
+
+
+2) add shortcut to the kglobal to capture the keys events
+kwriteconfig5 --file .config/kglobalshortcutsrc --group khotkeys --key '7c9ef7e2-bbf8-4c1e-b1b0-10d103ed285f' 'Meta+L,none,Lock Screen'
+
+
+
+kwriteconfig5 --file kglobalshortcutsrc --group kwin --key "Show Desktop" "none,none,Show Desktop"
+kquitapp5 kglobalaccel && sleep 2 && kglobalaccel5 &

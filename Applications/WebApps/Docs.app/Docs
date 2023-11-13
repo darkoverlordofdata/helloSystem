@@ -1,2 +1,2 @@
 #!/bin/sh
-chrome --app=https://www.fredmeyer.com/ --class=ICE-SSB-docs
+chrome --app=https://docs.google.com/document/u/0/ --class=ICE-SSB-docs
