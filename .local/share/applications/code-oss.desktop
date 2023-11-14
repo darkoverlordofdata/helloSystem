@@ -2,7 +2,7 @@
 Name=Code
 Comment=Code Editing. Redefined.
 GenericName=Text Editor
-Exec=/usr/local/bin/code-oss --unity-launch %F
+Exec=/usr/local/bin/code-oss --password-store="gnome" --unity-launch %F
 Icon=com.visualstudio.code
 Type=Application
 StartupNotify=false
@@ -14,5 +14,5 @@ Keywords=vscode;
 
 [Desktop Action new-empty-window]
 Name=New Empty Window
-Exec=/usr/local/bin/code-oss --new-window %F
+Exec=/usr/local/bin/code-oss --password-store="gnome" --new-window %F
 Icon=com.visualstudio.code

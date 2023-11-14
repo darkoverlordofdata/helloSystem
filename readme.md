@@ -132,10 +132,22 @@ cmake --build .
 sudo cmake --install .
 ```
 
+cp ~/GitHub/helloSystem/.local/share/icons/hicolor/scalable/apps/com.visualstudio.code.png "/Applications/Code - OSS.app/Resources/Code - OSS.png"        
+cp ~/GitHub/helloSystem/.local/share/icons/hicolor/scalable/apps/com.visualstudio.code.png "/Applications/Code - OSS - URL Handler.app/Resources/Code - OSS - URL Handler.png"
+mkdir -p ~/.local/share/icons/hicolor/48x48/apps
+cp ~/GitHub/helloSystem/.local/share/icons/hicolor/48x48/apps/octopi.png ~/.local/share/icons/hicolor/48x48/apps/octopi.png
+cp ~/GitHub/helloSystem/.local/share/icons/hicolor/48x48/apps/octopi.png /Applications/OctoPkg.app/Resources/OctoPkg.png
+
+
 ## objc on freebsd
 
 * sudo pkg install gnustep
 * sudo pkg install vscode
+* sudo pkg install gnome-keyring
+
+featherpad "/Applications/Code - OSS.app/Resources/executable
+- /usr/local/bin/code-oss
++ /usr/local/bin/code-oss  --password-store="gnome"
 
 ctrl-p
 * ext install webfreak.debug
@@ -152,8 +164,6 @@ clangd needs some extra help. change
 ```
 
 
-
-kquitapp5 kglobalaccel && sleep 2 && kglobalaccel5 &
 
 [/Applications/DailyBing.app/DailyBing]
 _k_friendly_name=DailyBing
@@ -191,4 +201,4 @@ kquitapp5 kglobalaccel && sleep 2 && kglobalaccel5 &
 git config --global user.name darkoverlordofdata
 git config --global user.email darkoverlordofdata@gmail.com
 
-oss-code --password-store="gnome"
+

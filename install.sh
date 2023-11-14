@@ -32,13 +32,15 @@ cp  ~/Documents/GitHub/helloSystem/.local/share/applications/code-oss.desktop  ~
 
 # set the octopi icon for Octopkg
 mkdir -p ~/.local/share/icons/hicolor/48x48/apps
-cp ~/Documents/GitHub/helloSystem/.local/share/icons/hicolor/48x48/apps/octopi.png ~/.local/share/icons/hicolor/48x48/apps/octopi.png
+cp ~/GitHub/helloSystem/.local/share/icons/hicolor/48x48/apps/octopi.png ~/.local/share/icons/hicolor/48x48/apps/octopi.png
 
 # set the original icon for VSCode
 sudo cp /usr/local/share/pixmaps/com.visualstudio.code.oss.png /usr/local/share/pixmaps/com.visualstudio.code.oss.png.copy
-sudo cp ~/Documents/GitHub/helloSystem/.local/share/icons/hicolor/scalable/apps/com.visualstudio.code.png /usr/local/share/pixmaps/com.visualstudio.code.oss.png
+sudo cp ~/GitHub/helloSystem/.local/share/icons/hicolor/scalable/apps/com.visualstudio.code.png /usr/local/share/pixmaps/com.visualstudio.code.oss.png
+cp ~/GitHub/helloSystem/.local/share/icons/hicolor/scalable/apps/com.visualstudio.code.png "/Applications/Code - OSS.app/Resources/Code - OSS.png"
+cp ~/GitHub/helloSystem/.local/share/icons/hicolor/scalable/apps/com.visualstudio.code.png "/Applications/Code - OSS - URL Handler.app/Resources/Code - OSS - URL Handler.png"
 
-
+Code - OSS - URL Handler.app
 
 # set the Dock items
 cp ~/Documents/GitHub/helloSystem/.config/cyberos/dock_pinned.comf  ~/.config/cyberos/dock_pinned.conf
