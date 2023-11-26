@@ -3,6 +3,6 @@ Encoding=UTF-8
 Version=1.0
 Type=Application
 Terminal=false
-Exec=launch Filer /Applications/Preferences
+Exec=launch /System/Filer.app/Filer /Applications/Preferences
 Name=Preferences
 Icon=preferences-desktop

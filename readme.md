@@ -23,7 +23,9 @@ hw.acpi.lid_switch_state="NONE"
 
 ### install apps
 ```
-sudo pkg update
+(sudo pkg update)
+sudo pkg install drm-kmod
+sudo pkg install chromium
 sudo pkg install plank
 sudo pkg install vscode
 sudo pkg install gnustep
@@ -177,22 +179,26 @@ Name=LockScreen
 Type=SIMPLE_ACTION_DATA
 
 [Data_0Actions0]
-CommandURL=/Applications/DailyBing.app/Resources/catlock.py --pin 420420
+CommandURL=/usr/local/bin/python3 /Applications/DailyBing.app/Resources/catlock.py --pin 420420
 Type=COMMAND_URL
 
 [Data_0Triggers0]
-Key=Meta+L
+Key=Alt+L
 Type=SHORTCUT
 Uuid={7c9ef7e2-bbf8-4c1e-b1b0-10d103ed285f}
 
 
 
-2) add shortcut to the kglobal to capture the keys events
-kwriteconfig5 --file .config/kglobalshortcutsrc --group khotkeys --key '7c9ef7e2-bbf8-4c1e-b1b0-10d103ed285f' 'Meta+L,none,Lock Screen'
+
+kwriteconfig5 --file .config/kglobalshortcutsrc --group khotkeys --key '{7c9ef7e2-bbf8-4c1e-b1b0-10d103ed285f}' 'Alt+L,none,Lock Screen'
+kquitapp5 kglobalaccel && sleep 2 && kglobalaccel5 &
 
 
 
 kwriteconfig5 --file kglobalshortcutsrc --group kwin --key "Show Desktop" "none,none,Show Desktop"
+kquitapp5 kglobalaccel && sleep 2 && kglobalaccel5 &
+
+kwriteconfig5 --file kglobalshortcutsrc --group kwin --key "Lock Screen" "none,none,Lock Screen"
 kquitapp5 kglobalaccel && sleep 2 && kglobalaccel5 &
 
 
@@ -202,3 +208,28 @@ git config --global user.name darkoverlordofdata
 git config --global user.email darkoverlordofdata@gmail.com
 
 
+[khotkeys]
+_k_friendly_name=khotkeys
+{7c9ef7e2-bbf8-4c1e-b1b0-10d103ed285f}=Ctrl+Alt+L,none,/usr/local/bin/python3 /Applications/DailyBing.app/Resources/catlock.py --pin 420420
+
+
+kwriteconfig5 --file kglobalshortcutsrc --group khotkeys --key "{cc44bb92-bf0b-46fc-924e-34775d48eec3}" "Alt+L,none,octopkg"
+kquitapp5 kglobalaccel && sleep 2 && kglobalaccel5 &
+
+kwriteconfig5 --file kglobalshortcutsrc --group khotkeys --key "{7c9ef7e2-bbf8-4c1e-b1b0-10d103ed285f}" "none,none,none"
+kquitapp5 kglobalaccel && sleep 2 && kglobalaccel5 &
+
+
+{001c259d-46e3-4777-9670-1f09474ead6c}=Ctrl+Alt+F,none,firefox
+
+kwriteconfig5 --file kglobalshortcutsrc --group khotkeys --key "{001c259d-46e3-4777-9670-1f09474ead6c}" "Ctrl+Alt+F,none,firefox"
+kquitapp5 kglobalaccel && sleep 2 && kglobalaccel5 &
+
+Window Fullscreen=Ctrl+Alt+F,none,Make Window Fullscreen
+
+kwriteconfig5 --file kglobalshortcutsrc --group khotkeys --key Window Fullscreen "none,none,Make Window Fullscreen"
+kquitapp5 kglobalaccel && sleep 2 && kglobalaccel5 &
+
+
+kwriteconfig5 --file kglobalshortcutsrc --group khotkeys --key Window Fullscreen --delete
+kquitapp5 kglobalaccel && sleep 2 && kglobalaccel5 &

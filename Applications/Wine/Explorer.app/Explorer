@@ -1,2 +1,2 @@
 #!/bin/sh
-/usr/local/bin/wine "/usr/home/darko/.wine/dosdevices/c:/windows/explorer.exe"
+unset LD_PRELOAD ; /usr/local/bin/wine64 "/usr/home/darko/.wine/dosdevices/c:/windows/explorer.exe"

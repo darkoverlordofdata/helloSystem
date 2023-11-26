@@ -3,6 +3,6 @@ Encoding=UTF-8
 Version=1.0
 Type=Application
 Terminal=false
-Exec=launch Filer /Applications/Utilities
+Exec=launch /System/Filer.app/Filer /Applications/Utilities
 Name=Utilities
 Icon=applications-accessories

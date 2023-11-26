@@ -11,13 +11,13 @@ sudo cp ~/Documents/GitHub/helloSystem/usr/local/var/localize/include /usr/local
 cp  ~/Documents/GitHub/helloSystem/Applications/Autostart/boot.sh /Applications/Autostart/boot.sh
 
 # fetch the theme
-cd ~/Documents/GitHub
+cd ~/GitHub
 git clone https://github.com/gnustep/plugins-themes-nesedahrik.git
 cd ..
 
 # install the theme
 mkdir -p ~/GNUstep/Library/Themes
-cp ~/Documents/GitHub/plugins-themes-nesedahrik/NesedahRik.theme ~/GNUstep/Library/Themes
+cp -rf ~/GitHub/plugins-themes-nesedahrik/NesedahRik.theme ~/GNUstep/Library/Themes
 
 
 
